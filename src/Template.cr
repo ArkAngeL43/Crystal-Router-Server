@@ -1,4 +1,6 @@
-module Loader
+# introducing the most idiotic way to generate html, but for now and in our case this works. In a professional even corperate enviroment you would not use this 
+# it would actually be best to throw this into an array, parse the array, make a do loop and go from there and write the data to the file. But this was quicker for testing
+module Loader 
     class Template 
         def fill_simple_Template(x : String)
             tmpl = "HTML/main.html"
